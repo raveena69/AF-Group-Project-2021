@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.out-background{
+    width: 100%;
+    height: 567px;
+    background: cadetblue;
+}
+
+.top-bar{
+    width: 1200px;
+    height: 567px;
+}
+/*# sourceMappingURL=index.HASH_REF_7fe25fdffd24aa8cc35e42d305437770.css.map */

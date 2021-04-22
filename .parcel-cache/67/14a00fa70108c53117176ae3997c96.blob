@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.out-background{
+    width: 100%;
+    height: 567px;
+}
+
+.top-bar{
+    width: 100%;
+    height: 567px;
+    background-image: url("background1.HASH_REF_ec5e3ce4fee1f82fdfea5ad3333dd0e2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-bar{
+    width: 1200px;
+    height: 567px;
+}
+/*# sourceMappingURL=index.HASH_REF_7fe25fdffd24aa8cc35e42d305437770.css.map */

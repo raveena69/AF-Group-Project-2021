@@ -1,0 +1,8 @@
+.out-background{
+
+}
+
+.top-bar{
+    width: 100%;
+    height: 567px;
+}
