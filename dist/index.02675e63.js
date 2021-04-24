@@ -26351,14 +26351,80 @@ try {
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
-          className: "conference-name",
+          className: "left",
           __self: this,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 13,
             columnNumber: 25
           }
-        }, "International Conference on Application Frameworks – ICAF")))))
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "conference-name",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14,
+            columnNumber: 29
+          }
+        }, "Welcome to International Conference on Application Frameworks [ICAF]")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "right",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 16,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "sign-up-back",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "still-not-registered",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 33
+          }
+        }, "Still not registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "#",
+          className: "sign-up",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 33
+          }
+        }, "Sign up Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "sign-up-back",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 21,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "already-registered",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22,
+            columnNumber: 33
+          }
+        }, "Already registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "#",
+          className: "sign-in",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23,
+            columnNumber: 33
+          }
+        }, "Sign in Now")))))))
       );
     }
   }
