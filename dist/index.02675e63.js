@@ -26339,7 +26339,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 10,
+            lineNumber: 11,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26347,7 +26347,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26355,7 +26355,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 13,
+            lineNumber: 14,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26363,7 +26363,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 29
           }
         }, "Welcome to International Conference on Application Frameworks [ICAF]")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26371,7 +26371,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26379,7 +26379,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 17,
+            lineNumber: 18,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26387,7 +26387,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 33
           }
         }, "Still not registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26396,7 +26396,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 33
           }
         }, "Sign up Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26404,7 +26404,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 22,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26412,7 +26412,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 23,
             columnNumber: 33
           }
         }, "Already registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26421,10 +26421,157 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 33
           }
-        }, "Sign in Now")))))))
+        }, "Sign in Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "date-back",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "dates",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 33
+          }
+        }, "21st, 22nd and 23rd December 2021"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "institute",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28,
+            columnNumber: 33
+          }
+        }, "Sri Lanka Institute of Information Technology"))))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "about-conference-back",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 36,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "about-conference-back1",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 37,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "about-conference",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 38,
+            columnNumber: 25
+          }
+        }, "About Our Conference"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "icaf-name",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 39,
+            columnNumber: 25
+          }
+        }, "1st International Conference in Application Frameworks 2021 [ICAF]"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "conference-para",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 40,
+            columnNumber: 25
+          }
+        }, "The 1st International Conference on Application Frameworks [ICAF] is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAF is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAF 2019 and ICAF 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library.", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 50,
+            columnNumber: 29
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 50,
+            columnNumber: 34
+          }
+        }), "December 21 - 23, 2021 in Sri Lanka Institute of Information Technology"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "guest-back",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 60,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "guest-back1",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 61,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "guest-speaker",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 62,
+            columnNumber: 29
+          }
+        }, "Guest Speakers"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person1",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 63,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person1-img",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 64,
+            columnNumber: 33
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person1-content",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 65,
+            columnNumber: 33
+          }
+        }, "PROF. Amelia Margaret ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 65,
+            columnNumber: 88
+          }
+        }), "Department of Software Engineering,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 66,
+            columnNumber: 72
+          }
+        }), " Faculty of Science and Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 66,
+            columnNumber: 112
+          }
+        }), " London University."))))))
       );
     }
   }
@@ -26436,7 +26583,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./css/Home.css":"3s3hT"}],"5gA8y":[function(require,module,exports) {
+},{"react":"3b2NM","./css/Home.css":"3s3hT","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3s3hT":[function() {},{}],"5gA8y":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
@@ -26635,6 +26782,6 @@ function registerExportsForReactRefresh(module) {
   }
 }
 
-},{"react-refresh/runtime":"592mh"}],"3s3hT":[function() {},{}]},["1j6wU","68WUB","1DVjT"], "1DVjT", "parcelRequirebb0d")
+},{"react-refresh/runtime":"592mh"}]},["1j6wU","68WUB","1DVjT"], "1DVjT", "parcelRequirebb0d")
 
 //# sourceMappingURL=index.02675e63.js.map
