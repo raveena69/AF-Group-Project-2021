@@ -133,11 +133,11 @@ export default class Home extends React.Component {
                                 </div>
 
                                 <div id="social">
-                                    <a href="https://www.youtube.com/"><div id="youtube"></div></a>
-                                    <a href="https://www.facebook.com/"><div id="facebook"></div></a>
-                                    <a href="https://www.pinterest.com/"><div id="pinterest"></div></a>
-                                    <a href="https://twitter.com/login?lang=en"><div id="twitter"></div></a>
-                                    <a href="https://www.instagram.com"><div id="instagram"></div></a>
+                                    <a href="https://www.youtube.com/" target="_blank"><div id="youtube"></div></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><div id="facebook"></div></a>
+                                    <a href="https://www.pinterest.com/" target="_blank"><div id="pinterest"></div></a>
+                                    <a href="https://twitter.com/login?lang=en" target="_blank"><div id="twitter"></div></a>
+                                    <a href="https://www.instagram.com" target="_blank"><div id="instagram"></div></a>
                                 </div>
 
                             </div>
