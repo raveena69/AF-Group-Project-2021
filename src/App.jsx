@@ -9,8 +9,6 @@ export default class App extends React.Component{
         return(
             <div>
                 <Home />
-                {/*<SignUp />*/}
-
             </div>
         );
     }
