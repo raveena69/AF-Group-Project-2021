@@ -26526,7 +26526,7 @@ try {
             lineNumber: 62,
             columnNumber: 29
           }
-        }, "Guest Speakers"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        }, "Keynote Speakers"), /*#__PURE__*/_reactDefault.default.createElement("div", {
           className: "person1",
           __self: this,
           __source: {
@@ -26571,7 +26571,416 @@ try {
             lineNumber: 66,
             columnNumber: 112
           }
-        }), " London University."))))))
+        }), " London University.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person2",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 70,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person2-img",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 71,
+            columnNumber: 33
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person1-content",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 72,
+            columnNumber: 33
+          }
+        }, "PROF. George Smith ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 72,
+            columnNumber: 85
+          }
+        }), "Department of Information System,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 73,
+            columnNumber: 70
+          }
+        }), " Faculty of Computing,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 73,
+            columnNumber: 97
+          }
+        }), " University of Birmingham.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person3",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person3-img",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 78,
+            columnNumber: 33
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person1-content",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 79,
+            columnNumber: 33
+          }
+        }, "PROF. Thomas Wilson ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 79,
+            columnNumber: 86
+          }
+        }), "Department of Computer Science,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 80,
+            columnNumber: 68
+          }
+        }), " Faculty of Information Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 80,
+            columnNumber: 108
+          }
+        }), " University of Texas At Austin.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person4",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 84,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person4-img",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 85,
+            columnNumber: 33
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "person1-content",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 86,
+            columnNumber: 33
+          }
+        }, "Dr. Elizabeth Brown ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 86,
+            columnNumber: 86
+          }
+        }), "Department of Information Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87,
+            columnNumber: 74
+          }
+        }), " Faculty of Science and Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87,
+            columnNumber: 114
+          }
+        }), " Cornell University.")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "topics-back",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 96,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "topics-back1",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 97,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "topics",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 98,
+            columnNumber: 25
+          }
+        }, "Topics"), /*#__PURE__*/_reactDefault.default.createElement("ul", {
+          className: "topics-out",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 99,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 100,
+            columnNumber: 29
+          }
+        }, "Intelligent Automation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 101,
+            columnNumber: 29
+          }
+        }, "AI and Decisioning"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 102,
+            columnNumber: 29
+          }
+        }, "Low-Code Development"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 103,
+            columnNumber: 29
+          }
+        }, "Operational Excellence"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 104,
+            columnNumber: 29
+          }
+        }, "Cloud Computing"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 105,
+            columnNumber: 29
+          }
+        }, "Robotic Process Automation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 106,
+            columnNumber: 29
+          }
+        }, "UX and Design"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 107,
+            columnNumber: 29
+          }
+        }, "Digital Transformation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+          className: "topic",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 108,
+            columnNumber: 29
+          }
+        }, "Latest Technologies")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "footer",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 117,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "footer1",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 118,
+            columnNumber: 25
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "logo1",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 120,
+            columnNumber: 29
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "facts",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 122,
+            columnNumber: 29
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "company-address",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 123,
+            columnNumber: 33
+          }
+        }, "SLIIT, New Kandy Road,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 125,
+            columnNumber: 52
+          }
+        }), "Malabe,", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 126,
+            columnNumber: 44
+          }
+        }), "Sri Lanka.", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 127,
+            columnNumber: 47
+          }
+        }), "+94 11 7544806", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 129,
+            columnNumber: 51
+          }
+        }), "info@icaf.lk", /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 130,
+            columnNumber: 49
+          }
+        }), /*#__PURE__*/_reactDefault.default.createElement("br", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 130,
+            columnNumber: 54
+          }
+        }), "© 2021 International Conference on Application Frameworks [ICAF] . All Rights Reserved."), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "social",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 135,
+            columnNumber: 33
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "https://www.youtube.com/",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 136,
+            columnNumber: 37
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "youtube",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 136,
+            columnNumber: 72
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "https://www.facebook.com/",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 137,
+            columnNumber: 37
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "facebook",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 137,
+            columnNumber: 73
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "https://www.pinterest.com/",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 138,
+            columnNumber: 37
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "pinterest",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 138,
+            columnNumber: 74
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "https://twitter.com/login?lang=en",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 139,
+            columnNumber: 37
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "twitter",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 139,
+            columnNumber: 81
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("a", {
+          href: "https://www.instagram.com",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 140,
+            columnNumber: 37
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          id: "instagram",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 140,
+            columnNumber: 73
+          }
+        }))))))))
       );
     }
   }
@@ -26583,7 +26992,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./css/Home.css":"3s3hT","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3s3hT":[function() {},{}],"5gA8y":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./css/Home.css":"3s3hT"}],"5gA8y":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
@@ -26782,6 +27191,6 @@ function registerExportsForReactRefresh(module) {
   }
 }
 
-},{"react-refresh/runtime":"592mh"}]},["1j6wU","68WUB","1DVjT"], "1DVjT", "parcelRequirebb0d")
+},{"react-refresh/runtime":"592mh"}],"3s3hT":[function() {},{}]},["1j6wU","68WUB","1DVjT"], "1DVjT", "parcelRequirebb0d")
 
 //# sourceMappingURL=index.02675e63.js.map
