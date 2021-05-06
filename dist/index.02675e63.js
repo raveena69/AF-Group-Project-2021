@@ -26324,7 +26324,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 8,
+            lineNumber: 10,
             columnNumber: 13
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26332,7 +26332,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 9,
+            lineNumber: 11,
             columnNumber: 17
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26340,7 +26340,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 11,
+            lineNumber: 13,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26348,7 +26348,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 12,
+            lineNumber: 14,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26356,7 +26356,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 14,
+            lineNumber: 16,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26364,15 +26364,15 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 15,
+            lineNumber: 17,
             columnNumber: 29
           }
         }, "Welcome to International Conference on Application Frameworks [ICAF]")), /*#__PURE__*/_reactDefault.default.createElement("div", {
-          className: "right",
+          className: "right ",
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 17,
+            lineNumber: 19,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26380,7 +26380,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 18,
+            lineNumber: 20,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26388,7 +26388,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 33
           }
         }, "Still not registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26397,7 +26397,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 23,
             columnNumber: 33
           }
         }, "Sign up Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26405,7 +26405,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 25,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26413,7 +26413,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 26,
             columnNumber: 33
           }
         }, "Already registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26422,7 +26422,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 24,
+            lineNumber: 27,
             columnNumber: 33
           }
         }, "Sign in Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26430,7 +26430,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 26,
+            lineNumber: 29,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26438,7 +26438,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 30,
             columnNumber: 33
           }
         }, "21st, 22nd and 23rd December 2021"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26446,7 +26446,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 31,
             columnNumber: 33
           }
         }, "Sri Lanka Institute of Information Technology"))))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26454,7 +26454,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36,
+            lineNumber: 39,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26462,7 +26462,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37,
+            lineNumber: 40,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26470,7 +26470,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38,
+            lineNumber: 41,
             columnNumber: 25
           }
         }, "About Our Conference"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26478,7 +26478,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39,
+            lineNumber: 42,
             columnNumber: 25
           }
         }, "1st International Conference in Application Frameworks 2021 [ICAF]"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26486,21 +26486,21 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40,
+            lineNumber: 43,
             columnNumber: 25
           }
         }, "The 1st International Conference on Application Frameworks [ICAF] is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAF is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAF 2019 and ICAF 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library.", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50,
+            lineNumber: 53,
             columnNumber: 29
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50,
+            lineNumber: 53,
             columnNumber: 34
           }
         }), "December 21 - 23, 2021 in Sri Lanka Institute of Information Technology"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26508,7 +26508,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60,
+            lineNumber: 63,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26516,7 +26516,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 61,
+            lineNumber: 64,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26524,7 +26524,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62,
+            lineNumber: 65,
             columnNumber: 29
           }
         }, "Keynote Speakers"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26532,7 +26532,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63,
+            lineNumber: 66,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26540,7 +26540,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64,
+            lineNumber: 67,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26548,28 +26548,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65,
+            lineNumber: 68,
             columnNumber: 33
           }
         }, "PROF. Amelia Margaret ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65,
+            lineNumber: 68,
             columnNumber: 88
           }
         }), "Department of Software Engineering,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66,
+            lineNumber: 69,
             columnNumber: 72
           }
         }), " Faculty of Science and Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66,
+            lineNumber: 69,
             columnNumber: 112
           }
         }), " London University.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26577,7 +26577,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 70,
+            lineNumber: 73,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26585,7 +26585,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71,
+            lineNumber: 74,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26593,28 +26593,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72,
+            lineNumber: 75,
             columnNumber: 33
           }
         }, "PROF. George Smith ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72,
+            lineNumber: 75,
             columnNumber: 85
           }
         }), "Department of Information System,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73,
+            lineNumber: 76,
             columnNumber: 70
           }
         }), " Faculty of Computing,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73,
+            lineNumber: 76,
             columnNumber: 97
           }
         }), " University of Birmingham.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26622,7 +26622,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 77,
+            lineNumber: 80,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26630,7 +26630,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78,
+            lineNumber: 81,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26638,28 +26638,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79,
+            lineNumber: 82,
             columnNumber: 33
           }
         }, "PROF. Thomas Wilson ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79,
+            lineNumber: 82,
             columnNumber: 86
           }
         }), "Department of Computer Science,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80,
+            lineNumber: 83,
             columnNumber: 68
           }
         }), " Faculty of Information Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80,
+            lineNumber: 83,
             columnNumber: 108
           }
         }), " University of Texas At Austin.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26667,7 +26667,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 84,
+            lineNumber: 87,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26675,7 +26675,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 85,
+            lineNumber: 88,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26683,28 +26683,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86,
+            lineNumber: 89,
             columnNumber: 33
           }
         }, "Dr. Elizabeth Brown ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86,
+            lineNumber: 89,
             columnNumber: 86
           }
         }), "Department of Information Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87,
+            lineNumber: 90,
             columnNumber: 74
           }
         }), " Faculty of Science and Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87,
+            lineNumber: 90,
             columnNumber: 114
           }
         }), " Cornell University.")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26712,7 +26712,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96,
+            lineNumber: 99,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26720,7 +26720,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 97,
+            lineNumber: 100,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26728,7 +26728,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 98,
+            lineNumber: 101,
             columnNumber: 25
           }
         }, "Topics"), /*#__PURE__*/_reactDefault.default.createElement("ul", {
@@ -26736,7 +26736,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 99,
+            lineNumber: 102,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26744,7 +26744,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 100,
+            lineNumber: 103,
             columnNumber: 29
           }
         }, "Intelligent Automation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26752,7 +26752,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 101,
+            lineNumber: 104,
             columnNumber: 29
           }
         }, "AI and Decisioning"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26760,7 +26760,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 102,
+            lineNumber: 105,
             columnNumber: 29
           }
         }, "Low-Code Development"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26768,7 +26768,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 103,
+            lineNumber: 106,
             columnNumber: 29
           }
         }, "Operational Excellence"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26776,7 +26776,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 104,
+            lineNumber: 107,
             columnNumber: 29
           }
         }, "Cloud Computing"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26784,7 +26784,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 105,
+            lineNumber: 108,
             columnNumber: 29
           }
         }, "Robotic Process Automation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26792,7 +26792,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 106,
+            lineNumber: 109,
             columnNumber: 29
           }
         }, "UX and Design"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26800,7 +26800,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107,
+            lineNumber: 110,
             columnNumber: 29
           }
         }, "Digital Transformation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26808,7 +26808,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108,
+            lineNumber: 111,
             columnNumber: 29
           }
         }, "Latest Technologies")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26816,7 +26816,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117,
+            lineNumber: 120,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26824,7 +26824,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 118,
+            lineNumber: 121,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26832,7 +26832,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 120,
+            lineNumber: 123,
             columnNumber: 29
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26840,7 +26840,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 122,
+            lineNumber: 125,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26848,49 +26848,49 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 123,
+            lineNumber: 126,
             columnNumber: 33
           }
         }, "SLIIT, New Kandy Road,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 125,
+            lineNumber: 128,
             columnNumber: 52
           }
         }), "Malabe,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126,
+            lineNumber: 129,
             columnNumber: 44
           }
         }), "Sri Lanka.", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 127,
+            lineNumber: 130,
             columnNumber: 47
           }
         }), "+94 11 7544806", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 129,
+            lineNumber: 132,
             columnNumber: 51
           }
         }), "info@icaf.lk", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 130,
+            lineNumber: 133,
             columnNumber: 49
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 130,
+            lineNumber: 133,
             columnNumber: 54
           }
         }), "© 2021 International Conference on Application Frameworks [ICAF] . All Rights Reserved."), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26898,7 +26898,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 135,
+            lineNumber: 138,
             columnNumber: 33
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26907,7 +26907,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 136,
+            lineNumber: 139,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26915,7 +26915,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 136,
+            lineNumber: 139,
             columnNumber: 88
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26924,7 +26924,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 137,
+            lineNumber: 140,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26932,7 +26932,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 137,
+            lineNumber: 140,
             columnNumber: 89
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26941,7 +26941,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 138,
+            lineNumber: 141,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26949,7 +26949,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 138,
+            lineNumber: 141,
             columnNumber: 90
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26958,7 +26958,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 139,
+            lineNumber: 142,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26966,7 +26966,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 139,
+            lineNumber: 142,
             columnNumber: 97
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26975,7 +26975,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 140,
+            lineNumber: 143,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26983,7 +26983,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 140,
+            lineNumber: 143,
             columnNumber: 89
           }
         }))))))))
