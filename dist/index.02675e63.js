@@ -740,7 +740,7 @@ if ("development" !== "production") {
   })();
 }
 
-},{}],"68WUB":[function(require,module,exports) {
+},{}],"2y6DN":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
@@ -1053,7 +1053,7 @@ try {
   var _reactDom = require('react-dom');
   var _App = require('./App');
   var _AppDefault = _parcelHelpers.interopDefault(_App);
-  var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\index.jsx";
+  var _jsxFileName = "C:\\Users\\User\\WebstormProjects\\AF-Group-Project-2021\\src\\index.jsx";
   // render(<h1>Hello World</h1>, document.getElementById('root'));
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_AppDefault.default, {
     __self: undefined,
@@ -1069,7 +1069,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-dom":"2sg1U","./App":"65XMm","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3b2NM":[function(require,module,exports) {
+},{"react":"3b2NM","react-dom":"2sg1U","./App":"65XMm","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3b2NM":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
   module.exports = require('./cjs/react.production.min.js');
@@ -26272,10 +26272,10 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _Home = require('./Home');
-  var _HomeDefault = _parcelHelpers.interopDefault(_Home);
-  require("./SignUp");
-  var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\App.jsx";
+  require('./Home');
+  var _SignUp = require("./SignUp");
+  var _SignUpDefault = _parcelHelpers.interopDefault(_SignUp);
+  var _jsxFileName = "C:\\Users\\User\\WebstormProjects\\AF-Group-Project-2021\\src\\App.jsx";
   class App extends _reactDefault.default.Component {
     render() {
       return (
@@ -26286,11 +26286,11 @@ try {
             lineNumber: 10,
             columnNumber: 13
           }
-        }, /*#__PURE__*/_reactDefault.default.createElement(_HomeDefault.default, {
+        }, /*#__PURE__*/_reactDefault.default.createElement(_SignUpDefault.default, {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 17
           }
         }))
@@ -26305,7 +26305,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./Home":"65qHs","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./SignUp":"5NHTt"}],"65qHs":[function(require,module,exports) {
+},{"react":"3b2NM","./Home":"65qHs","./SignUp":"5NHTt","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"65qHs":[function(require,module,exports) {
 var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -26316,7 +26316,7 @@ try {
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require('./css/Home.css');
-  var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\Home.jsx";
+  var _jsxFileName = "C:\\Users\\User\\WebstormProjects\\AF-Group-Project-2021\\src\\Home.jsx";
   class Home extends _reactDefault.default.Component {
     render() {
       return (
@@ -26998,7 +26998,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./css/Home.css":"3s3hT"}],"5gA8y":[function(require,module,exports) {
+},{"react":"3b2NM","./css/Home.css":"3s3hT","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3s3hT":[function() {},{}],"5gA8y":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
@@ -27197,7 +27197,7 @@ function registerExportsForReactRefresh(module) {
   }
 }
 
-},{"react-refresh/runtime":"592mh"}],"3s3hT":[function() {},{}],"5NHTt":[function(require,module,exports) {
+},{"react-refresh/runtime":"592mh"}],"5NHTt":[function(require,module,exports) {
 var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27208,7 +27208,7 @@ try {
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require('./css/SignUp.css');
-  var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\SignUp.jsx";
+  var _jsxFileName = "C:\\Users\\User\\WebstormProjects\\AF-Group-Project-2021\\src\\SignUp.jsx";
   class SignUp extends _reactDefault.default.Component {
     /*constructor(props) {
     super(props);
@@ -27443,6 +27443,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./css/SignUp.css":"uOIoS","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"uOIoS":[function() {},{}]},["1j6wU","68WUB","1DVjT"], "1DVjT", "parcelRequirebb0d")
+},{"react":"3b2NM","./css/SignUp.css":"uOIoS","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"uOIoS":[function() {},{}]},["1j6wU","2y6DN","1DVjT"], "1DVjT", "parcelRequirebb0d")
 
 //# sourceMappingURL=index.02675e63.js.map

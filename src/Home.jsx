@@ -1,8 +1,7 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './css/Home.css';
-// import {BrowserRouter as Router, Route, Switch, Link, Redirect} from "react-router-dom";
-// import SignUp from "./SignUp";
-
+import SignUp from "./SignUp";
+import {Link} from "react-router-dom";
 export default class Home extends React.Component {
 
     render() {
@@ -16,11 +15,10 @@ export default class Home extends React.Component {
                         <div className="left">
                             <div className="conference-name">Welcome to International Conference on Application Frameworks [ICAF]</div>
                         </div>
-                        <div className="right ">
+                        <div className="right">
                             <div className="sign-up-back">
                                 <div className="still-not-registered">Still not registered</div>
-
-                                <a href="#" className="sign-up">Sign up Now</a>
+                                <a href="/signUp" className="sign-up">Sign up Now</a>
                             </div>
                             <div className="sign-up-back">
                                 <div className="already-registered">Already registered</div>
