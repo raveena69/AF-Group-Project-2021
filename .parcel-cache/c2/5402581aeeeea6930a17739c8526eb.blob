@@ -1,0 +1,244 @@
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  require('./css/SignUp.css');
+  var _jsxFileName = "C:\\Users\\User\\WebstormProjects\\AF-Group-Project-2021\\src\\SignUp.jsx";
+  class SignUp extends _reactDefault.default.Component {
+    /*constructor(props) {
+    super(props);
+    
+    this.state = {
+    firstName: null,
+    lastName:null,
+    email:null,
+    password:null,
+    userState:null,
+    formErrors: {
+    firstName: "",
+    lastName: "",
+    email: "",
+    password: "",
+    userState: ""
+    }
+    };
+    //this.handleSubmit = this.handleSubmit.bind(this);
+    }*/
+    render() {
+      return (
+        /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "wrapper",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 16
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "form-wrapper",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28,
+            columnNumber: 13
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29,
+            columnNumber: 17
+          }
+        }, "Create Account"), /*#__PURE__*/_reactDefault.default.createElement("form", {
+          onSubmit: this.handleSubmit,
+          noValidate: true,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 17
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "firstName",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+          htmlFor: "firstName",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 32,
+            columnNumber: 25
+          }
+        }, "First Name"), /*#__PURE__*/_reactDefault.default.createElement("input", {
+          type: "text",
+          className: "",
+          placeholder: "First Name",
+          name: "firstName",
+          noValidate: true,
+          onChange: this.handleChange,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 33,
+            columnNumber: 25
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "lastName",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 35,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+          htmlFor: "lastName",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 36,
+            columnNumber: 25
+          }
+        }, "Last Name"), /*#__PURE__*/_reactDefault.default.createElement("input", {
+          type: "text",
+          className: "",
+          placeholder: "Last Name",
+          name: "lastName",
+          noValidate: true,
+          onChange: this.handleChange,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 37,
+            columnNumber: 25
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "email",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 39,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+          htmlFor: "email",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 40,
+            columnNumber: 25
+          }
+        }, "Email"), /*#__PURE__*/_reactDefault.default.createElement("input", {
+          type: "email",
+          className: "",
+          placeholder: "Email",
+          name: "email",
+          noValidate: true,
+          onChange: this.handleChange,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41,
+            columnNumber: 25
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "password",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 43,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+          htmlFor: "password",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 44,
+            columnNumber: 25
+          }
+        }, "Password"), /*#__PURE__*/_reactDefault.default.createElement("input", {
+          type: "password",
+          className: "",
+          placeholder: "Password",
+          name: "password",
+          noValidate: true,
+          onChange: this.handleChange,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 45,
+            columnNumber: 25
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "userState",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 47,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+          htmlFor: "userState",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 48,
+            columnNumber: 25
+          }
+        }, "User State"), /*#__PURE__*/_reactDefault.default.createElement("input", {
+          type: "text",
+          className: "",
+          placeholder: "userState",
+          name: "userState",
+          noValidate: true,
+          onChange: this.handleChange,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 49,
+            columnNumber: 25
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "createAccount",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 51,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("button", {
+          type: "submit",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 52,
+            columnNumber: 25
+          }
+        }, "Create Account"), /*#__PURE__*/_reactDefault.default.createElement("small", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 53,
+            columnNumber: 25
+          }
+        }, "Already have an account?")))))
+      );
+    }
+  }
+  exports.default = SignUp;
+  ;
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Home.css';
-
+import SignUp from "./SignUp";
+import {Link} from "react-router-dom";
 export default class Home extends React.Component {
 
     render() {
@@ -17,7 +18,7 @@ export default class Home extends React.Component {
                         <div className="right">
                             <div className="sign-up-back">
                                 <div className="still-not-registered">Still not registered</div>
-                                <a href="#" className="sign-up">Sign up Now</a>
+                                <a href="/signUp" className="sign-up">Sign up Now</a>
                             </div>
                             <div className="sign-up-back">
                                 <div className="already-registered">Already registered</div>
