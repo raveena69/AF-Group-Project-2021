@@ -9,10 +9,11 @@
 }
 
 /*Top section start*/
+
 .top-bar{
     min-width:100%;
     min-height: 722px;
-    background-image: url("../images/background3.png");
+    background-image: url("background3.HASH_REF_64111a6728be1f9f3a7ee1371bcca6ec.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -129,6 +130,7 @@
 /*Top section end*/
 
 /*Middle section start*/
+
 .about-conference-back{
     width: 1200px;
     height: auto;
@@ -173,8 +175,8 @@
 
 /*Middle section end*/
 
-
 /*Guest speakers start*/
+
 .guest-speaker{
     width: 500px;
     height: auto;
@@ -188,7 +190,7 @@
 
 .guest-back{
     width: 100%;
-    height: 1070px;
+    height: 1060px;
     background: #225687;
     float: left;
 }
@@ -203,7 +205,7 @@
 .person1-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person1.jpg");
+    background-image: url("person1.HASH_REF_fe24ea26f23df699cd0a478129fb4f27.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -243,7 +245,7 @@
 .person2-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person2.jpg");
+    background-image: url("person2.HASH_REF_cc029ed81fe562fa86325ef80a80fa21.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -254,7 +256,7 @@
 .person3-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person4.jpg");
+    background-image: url("person4.HASH_REF_cc5a68d0d4dc7a740d8ff15e3df3ecce.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -265,7 +267,7 @@
 .person4-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person3.jpeg");
+    background-image: url("person3.HASH_REF_f6008f693d50030104807bfc34a31b8f.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -276,6 +278,7 @@
 /*Guest Speakers end*/
 
 /*Topics start*/
+
 .topics-back{
     width:1200px;
     height: 650px;
@@ -312,7 +315,8 @@
     font-size: 20px;
     font-weight: bold;
     margin-top: 30px;
-    margin-left: 80px;
+    text-align: center;
+    /*margin-left: 50px;*/
     float: left;
 }
 
@@ -361,7 +365,7 @@
 #logo1{
     width:90px;
     height:80px;
-    background-image: url("../images/logo1.png");
+    background-image: url("logo1.HASH_REF_4272d1afd070827adb9fdbeba262df57.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -383,7 +387,7 @@
     height:40px;
     margin-top: 10px;
     float:left;
-    background-image: url("../images/youtube.png");
+    background-image: url("youtube.HASH_REF_129d1a6b740a19988b5ed780a4e1355b.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -395,7 +399,7 @@
     float:left;
     margin-left:30px;
     margin-top:10px;
-    background-image: url("../images/facebook.png");
+    background-image: url("facebook.HASH_REF_de752e1d146f90b40e47198654598c82.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -407,7 +411,7 @@
     float:left;
     margin-left:20px;
     margin-top:10px;
-    background-image: url("../images/pinterest.png");
+    background-image: url("pinterest.HASH_REF_354850fbf3d2893c6117d1d0de8df21a.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -419,7 +423,7 @@
     float:left;
     margin-left:20px;
     margin-top:10px;
-    background-image: url("../images/twitter.png");
+    background-image: url("twitter.HASH_REF_7bafe4ad19ec38cb59a0f4764d90c871.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -431,10 +435,11 @@
     float:left;
     margin-left:20px;
     margin-top:5px;
-    background-image: url("../images/instagram.png");
+    background-image: url("instagram.HASH_REF_91345498fc8efb5abab70c325bff0859.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 /*Footer End*/
+/*# sourceMappingURL=index.HASH_REF_7fe25fdffd24aa8cc35e42d305437770.css.map */

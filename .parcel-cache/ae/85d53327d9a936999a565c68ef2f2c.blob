@@ -9,10 +9,11 @@
 }
 
 /*Top section start*/
+
 .top-bar{
     min-width:100%;
     min-height: 722px;
-    background-image: url("../images/background3.png");
+    background-image: url("6f22029ad7992f8c6e1f0b3823760fa0");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -129,6 +130,7 @@
 /*Top section end*/
 
 /*Middle section start*/
+
 .about-conference-back{
     width: 1200px;
     height: auto;
@@ -173,8 +175,8 @@
 
 /*Middle section end*/
 
-
 /*Guest speakers start*/
+
 .guest-speaker{
     width: 500px;
     height: auto;
@@ -188,7 +190,7 @@
 
 .guest-back{
     width: 100%;
-    height: 1070px;
+    height: 1060px;
     background: #225687;
     float: left;
 }
@@ -203,7 +205,7 @@
 .person1-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person1.jpg");
+    background-image: url("263066663a60bb6df6dac620fe6b68df");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -243,7 +245,7 @@
 .person2-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person2.jpg");
+    background-image: url("ebc9e92a208a26dc1d61755ed9874edf");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -254,7 +256,7 @@
 .person3-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person4.jpg");
+    background-image: url("f846c09f34f286087fb451ca90a327d3");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -265,7 +267,7 @@
 .person4-img{
     width: 300px;
     height: 300px;
-    background-image: url("../images/person3.jpeg");
+    background-image: url("664680b36848c8ee94395d9b7c7b9f6a");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -276,6 +278,7 @@
 /*Guest Speakers end*/
 
 /*Topics start*/
+
 .topics-back{
     width:1200px;
     height: 650px;
@@ -312,7 +315,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 70px;
     float: left;
 }
 
@@ -361,7 +364,7 @@
 #logo1{
     width:90px;
     height:80px;
-    background-image: url("../images/logo1.png");
+    background-image: url("ca4f0fa5e1e4f56bfedb3e633cd5996e");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -383,7 +386,7 @@
     height:40px;
     margin-top: 10px;
     float:left;
-    background-image: url("../images/youtube.png");
+    background-image: url("b3c95b67da0f5fcbc0ea7437e5918df8");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -395,7 +398,7 @@
     float:left;
     margin-left:30px;
     margin-top:10px;
-    background-image: url("../images/facebook.png");
+    background-image: url("e43b7159f992cc8060ec37ed1a5bfcba");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -407,7 +410,7 @@
     float:left;
     margin-left:20px;
     margin-top:10px;
-    background-image: url("../images/pinterest.png");
+    background-image: url("80678a33026279c8a925b70c70f076c6");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -419,7 +422,7 @@
     float:left;
     margin-left:20px;
     margin-top:10px;
-    background-image: url("../images/twitter.png");
+    background-image: url("71311982f0bae7ac718d38a0c628cf8d");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -431,7 +434,7 @@
     float:left;
     margin-left:20px;
     margin-top:5px;
-    background-image: url("../images/instagram.png");
+    background-image: url("3ba751b17b7dcd2966fab3a54044ed2e");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
