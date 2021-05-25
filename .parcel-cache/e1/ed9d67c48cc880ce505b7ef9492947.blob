@@ -1,0 +1,75 @@
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _Home = require('./Home');
+  var _HomeDefault = _parcelHelpers.interopDefault(_Home);
+  var _SignUp = require("./SignUp");
+  var _SignUpDefault = _parcelHelpers.interopDefault(_SignUp);
+  var _reactRouterDom = require("react-router-dom");
+  var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\App.jsx";
+  class App extends _reactDefault.default.Component {
+    render() {
+      return (
+        /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 11,
+            columnNumber: 13
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Switch, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 16,
+            columnNumber: 17
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+          exact: true,
+          path: "/",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_HomeDefault.default, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 21
+          }
+        })), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+          exact: true,
+          path: "/signUp",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20,
+            columnNumber: 21
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement(_SignUpDefault.default, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 21,
+            columnNumber: 25
+          }
+        }))))
+      );
+    }
+  }
+  exports.default = App;
+  ;
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

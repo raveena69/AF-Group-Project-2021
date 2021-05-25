@@ -1054,12 +1054,13 @@ try {
   var _App = require('./App');
   var _AppDefault = _parcelHelpers.interopDefault(_App);
   var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\index.jsx";
+  // import settings from './Settings';
   // render(<h1>Hello World</h1>, document.getElementById('root'));
   _reactDom.render(/*#__PURE__*/_reactDefault.default.createElement(_AppDefault.default, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 8
     }
   }), document.getElementById('root'));
@@ -1069,7 +1070,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-dom":"2sg1U","./App":"65XMm","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3b2NM":[function(require,module,exports) {
+},{"react":"3b2NM","react-dom":"2sg1U","./App":"65XMm","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3b2NM":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
   module.exports = require('./cjs/react.production.min.js');
@@ -26292,7 +26293,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 17
           }
         }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26301,14 +26302,14 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 17,
+            lineNumber: 18,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement(_HomeDefault.default, {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 21
           }
         })), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26317,14 +26318,14 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 21,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement(_SignUpDefault.default, {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 22,
             columnNumber: 25
           }
         }))))
@@ -26339,7 +26340,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./Home":"65qHs","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./SignUp":"5NHTt","react-router-dom":"1PMSK"}],"65qHs":[function(require,module,exports) {
+},{"react":"3b2NM","./Home":"65qHs","./SignUp":"5NHTt","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"65qHs":[function(require,module,exports) {
 var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -26351,7 +26352,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require('./css/Home.css');
   require("./SignUp");
-  require("react-router-dom");
+  var _reactRouterDom = require("react-router-dom");
   var _jsxFileName = "D:\\SLIIT\\3rd Year 1st Semester\\AF - Group Project\\AF-Project-ICAF\\src\\Home.jsx";
   class Home extends _reactDefault.default.Component {
     render() {
@@ -26427,13 +26428,14 @@ try {
             lineNumber: 20,
             columnNumber: 33
           }
-        }, "Still not registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
-          href: "/signUp",
+        }, "Still not registered"), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Link, {
+          to: "/signUp",
           className: "sign-up",
+          target: "_blanck",
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 22,
             columnNumber: 33
           }
         }, "Sign up Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26441,7 +26443,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26449,16 +26451,17 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 24,
+            lineNumber: 25,
             columnNumber: 33
           }
         }, "Already registered"), /*#__PURE__*/_reactDefault.default.createElement("a", {
           href: "#",
           className: "sign-in",
+          target: "_blanck",
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 33
           }
         }, "Sign in Now")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26466,7 +26469,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26474,7 +26477,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 29,
             columnNumber: 33
           }
         }, "21st, 22nd and 23rd December 2021"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26482,7 +26485,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 33
           }
         }, "Sri Lanka Institute of Information Technology"))))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26490,7 +26493,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37,
+            lineNumber: 38,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26498,7 +26501,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38,
+            lineNumber: 39,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26506,7 +26509,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39,
+            lineNumber: 41,
             columnNumber: 25
           }
         }, "About Our Conference"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26514,7 +26517,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40,
+            lineNumber: 42,
             columnNumber: 25
           }
         }, "1st International Conference in Application Frameworks 2021 [ICAF]"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26522,21 +26525,21 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41,
+            lineNumber: 43,
             columnNumber: 25
           }
         }, "The 1st International Conference on Application Frameworks [ICAF] is organized by the Faculty of Computing of the Sri Lanka Institute of Information Technology (SLIIT) as an open forum for academics along with industry professionals to present the latest findings and research output and practical deployments in the Computer Science and Information Technology domains. Primary objective of the ICAF is to uplift the research culture and the quality of research done by Sri Lankan researchers. This conference will create a platform for national and international researchers to showcase their research output, networking opportunities to discuss innovative ideas, and initiate collaborative work. ICAF 2019 and ICAF 2020 were successfully conducted with a technical co-sponsorship by IEEE Sri Lanka Section and all publications are available in IEEE Xplore digital library.", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51,
+            lineNumber: 53,
             columnNumber: 29
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51,
+            lineNumber: 53,
             columnNumber: 34
           }
         }), "December 21 - 23, 2021 in Sri Lanka Institute of Information Technology"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26544,7 +26547,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 61,
+            lineNumber: 63,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26552,7 +26555,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62,
+            lineNumber: 64,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26560,7 +26563,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63,
+            lineNumber: 65,
             columnNumber: 29
           }
         }, "Keynote Speakers"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26568,7 +26571,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64,
+            lineNumber: 66,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26576,7 +26579,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65,
+            lineNumber: 67,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26584,28 +26587,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66,
+            lineNumber: 68,
             columnNumber: 33
           }
         }, "PROF. Amelia Margaret ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66,
+            lineNumber: 68,
             columnNumber: 88
           }
         }), "Department of Software Engineering,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 67,
+            lineNumber: 69,
             columnNumber: 72
           }
         }), " Faculty of Science and Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 67,
+            lineNumber: 69,
             columnNumber: 112
           }
         }), " London University.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26613,7 +26616,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71,
+            lineNumber: 73,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26621,7 +26624,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72,
+            lineNumber: 74,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26629,28 +26632,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73,
+            lineNumber: 75,
             columnNumber: 33
           }
         }, "PROF. George Smith ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 73,
+            lineNumber: 75,
             columnNumber: 85
           }
         }), "Department of Information System,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 74,
+            lineNumber: 76,
             columnNumber: 70
           }
         }), " Faculty of Computing,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 74,
+            lineNumber: 76,
             columnNumber: 97
           }
         }), " University of Birmingham.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26658,7 +26661,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78,
+            lineNumber: 80,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26666,7 +26669,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79,
+            lineNumber: 81,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26674,28 +26677,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80,
+            lineNumber: 82,
             columnNumber: 33
           }
         }, "PROF. Thomas Wilson ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80,
+            lineNumber: 82,
             columnNumber: 86
           }
         }), "Department of Computer Science,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 81,
+            lineNumber: 83,
             columnNumber: 68
           }
         }), " Faculty of Information Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 81,
+            lineNumber: 83,
             columnNumber: 108
           }
         }), " University of Texas At Austin.")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26703,7 +26706,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 85,
+            lineNumber: 87,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26711,7 +26714,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86,
+            lineNumber: 88,
             columnNumber: 33
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26719,28 +26722,28 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87,
+            lineNumber: 89,
             columnNumber: 33
           }
         }, "Dr. Elizabeth Brown ", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87,
+            lineNumber: 89,
             columnNumber: 86
           }
         }), "Department of Information Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88,
+            lineNumber: 90,
             columnNumber: 74
           }
         }), " Faculty of Science and Technology,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88,
+            lineNumber: 90,
             columnNumber: 114
           }
         }), " Cornell University.")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26748,7 +26751,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 97,
+            lineNumber: 99,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26756,7 +26759,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 98,
+            lineNumber: 100,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26764,7 +26767,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 99,
+            lineNumber: 101,
             columnNumber: 25
           }
         }, "Topics"), /*#__PURE__*/_reactDefault.default.createElement("ul", {
@@ -26772,7 +26775,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 100,
+            lineNumber: 102,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26780,7 +26783,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 101,
+            lineNumber: 103,
             columnNumber: 29
           }
         }, "Intelligent Automation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26788,7 +26791,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 102,
+            lineNumber: 104,
             columnNumber: 29
           }
         }, "AI and Decisioning"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26796,7 +26799,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 103,
+            lineNumber: 105,
             columnNumber: 29
           }
         }, "Low-Code Development"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26804,7 +26807,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 104,
+            lineNumber: 106,
             columnNumber: 29
           }
         }, "Operational Excellence"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26812,7 +26815,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 105,
+            lineNumber: 107,
             columnNumber: 29
           }
         }, "Cloud Computing"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26820,7 +26823,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 106,
+            lineNumber: 108,
             columnNumber: 29
           }
         }, "Robotic Process Automation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26828,7 +26831,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107,
+            lineNumber: 109,
             columnNumber: 29
           }
         }, "UX and Design"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26836,7 +26839,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108,
+            lineNumber: 110,
             columnNumber: 29
           }
         }, "Digital Transformation"), /*#__PURE__*/_reactDefault.default.createElement("li", {
@@ -26844,7 +26847,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 109,
+            lineNumber: 111,
             columnNumber: 29
           }
         }, "Latest Technologies")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26852,7 +26855,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 118,
+            lineNumber: 120,
             columnNumber: 21
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26860,7 +26863,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119,
+            lineNumber: 121,
             columnNumber: 25
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26868,7 +26871,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 121,
+            lineNumber: 123,
             columnNumber: 29
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26876,7 +26879,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 123,
+            lineNumber: 125,
             columnNumber: 29
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26884,49 +26887,49 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 124,
+            lineNumber: 126,
             columnNumber: 33
           }
         }, "SLIIT, New Kandy Road,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126,
+            lineNumber: 128,
             columnNumber: 52
           }
         }), "Malabe,", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 127,
+            lineNumber: 129,
             columnNumber: 44
           }
         }), "Sri Lanka.", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 128,
+            lineNumber: 130,
             columnNumber: 47
           }
         }), "+94 11 7544806", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 130,
+            lineNumber: 132,
             columnNumber: 51
           }
         }), "info@icaf.lk", /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131,
+            lineNumber: 133,
             columnNumber: 49
           }
         }), /*#__PURE__*/_reactDefault.default.createElement("br", {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131,
+            lineNumber: 133,
             columnNumber: 54
           }
         }), "© 2021 International Conference on Application Frameworks [ICAF] . All Rights Reserved."), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26934,7 +26937,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 136,
+            lineNumber: 138,
             columnNumber: 33
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26943,7 +26946,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 137,
+            lineNumber: 139,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26951,7 +26954,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 137,
+            lineNumber: 139,
             columnNumber: 88
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26960,7 +26963,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 138,
+            lineNumber: 140,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26968,7 +26971,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 138,
+            lineNumber: 140,
             columnNumber: 89
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26977,7 +26980,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 139,
+            lineNumber: 141,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26985,7 +26988,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 139,
+            lineNumber: 141,
             columnNumber: 90
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -26994,7 +26997,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 140,
+            lineNumber: 142,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -27002,7 +27005,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 140,
+            lineNumber: 142,
             columnNumber: 97
           }
         })), /*#__PURE__*/_reactDefault.default.createElement("a", {
@@ -27011,7 +27014,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141,
+            lineNumber: 143,
             columnNumber: 37
           }
         }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -27019,7 +27022,7 @@ try {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141,
+            lineNumber: 143,
             columnNumber: 89
           }
         }))))))))
@@ -27034,206 +27037,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./css/Home.css":"3s3hT","./SignUp":"5NHTt","react-router-dom":"1PMSK"}],"5gA8y":[function(require,module,exports) {
-"use strict";
-
-exports.interopDefault = function (a) {
-  return a && a.__esModule ? a : {
-    default: a
-  };
-};
-
-exports.defineInteropFlag = function (a) {
-  Object.defineProperty(a, '__esModule', {
-    value: true
-  });
-};
-
-exports.exportAll = function (source, dest) {
-  Object.keys(source).forEach(function (key) {
-    if (key === 'default' || key === '__esModule') {
-      return;
-    } // Skip duplicate re-exports when they have the same value.
-
-
-    if (key in dest && dest[key] === source[key]) {
-      return;
-    }
-
-    Object.defineProperty(dest, key, {
-      enumerable: true,
-      get: function () {
-        return source[key];
-      }
-    });
-  });
-  return dest;
-};
-
-exports.export = function (dest, destName, get) {
-  Object.defineProperty(dest, destName, {
-    enumerable: true,
-    get: get
-  });
-};
-},{}],"4Jj4f":[function(require,module,exports) {
-"use strict";
-var Refresh = require('react-refresh/runtime');
-function debounce(func, delay) {
-  if ("development" === 'test') {
-    return function (args) {
-      func.call(null, args);
-    };
-  } else {
-    var timeout = undefined;
-    return function (args) {
-      clearTimeout(timeout);
-      timeout = setTimeout(function () {
-        timeout = undefined;
-        func.call(null, args);
-      }, delay);
-    };
-  }
-}
-var enqueueUpdate = debounce(function () {
-  Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function (module) {
-  window.$RefreshReg$ = function (type, id) {
-    Refresh.register(type, module.id + ' ' + id);
-  };
-  window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function (module) {
-  if (isReactRefreshBoundary(module.exports)) {
-    registerExportsForReactRefresh(module);
-    if (module.hot) {
-      module.hot.dispose(function (data) {
-        if (Refresh.hasUnrecoverableErrors()) {
-          window.location.reload();
-        }
-        data.prevExports = module.exports;
-      });
-      module.hot.accept(function (getParents) {
-        var prevExports = module.hot.data.prevExports;
-        var nextExports = module.exports;
-        // Since we just executed the code for it, it's possible
-        // that the new exports make it ineligible for being a boundary.
-        var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-        // It can also become ineligible if its exports are incompatible
-        // with the previous exports.
-        // For example, if you add/remove/change exports, we'll want
-        // to re-execute the importing modules, and force those components
-        // to re-render. Similarly, if you convert a class component
-        // to a function, we want to invalidate the boundary.
-        var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-        if (isNoLongerABoundary || didInvalidate) {
-          // We'll be conservative. The only case in which we won't do a full
-          // reload is if all parent modules are also refresh boundaries.
-          // In that case we'll add them to the current queue.
-          var parents = getParents();
-          if (parents.length === 0) {
-            // Looks like we bubbled to the root. Can't recover from that.
-            window.location.reload();
-            return;
-          }
-          return parents;
-        }
-        enqueueUpdate();
-      });
-    }
-  }
-};
-function isReactRefreshBoundary(exports) {
-  if (Refresh.isLikelyComponentType(exports)) {
-    return true;
-  }
-  if (exports == null || typeof exports !== 'object') {
-    // Exit if we can't iterate over exports.
-    return false;
-  }
-  var hasExports = false;
-  var areAllExportsComponents = true;
-  let isESM = ('__esModule' in exports);
-  for (var key in exports) {
-    hasExports = true;
-    if (key === '__esModule') {
-      continue;
-    }
-    var desc = Object.getOwnPropertyDescriptor(exports, key);
-    if (desc && desc.get && !isESM) {
-      // Don't invoke getters for CJS as they may have side effects.
-      return false;
-    }
-    var exportValue = exports[key];
-    if (!Refresh.isLikelyComponentType(exportValue)) {
-      areAllExportsComponents = false;
-    }
-  }
-  return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-  var prevSignature = getRefreshBoundarySignature(prevExports);
-  var nextSignature = getRefreshBoundarySignature(nextExports);
-  if (prevSignature.length !== nextSignature.length) {
-    return true;
-  }
-  for (var i = 0; i < nextSignature.length; i++) {
-    if (prevSignature[i] !== nextSignature[i]) {
-      return true;
-    }
-  }
-  return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-  var signature = [];
-  signature.push(Refresh.getFamilyByType(exports));
-  if (exports == null || typeof exports !== 'object') {
-    // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-  }
-  let isESM = ('__esModule' in exports);
-  for (var key in exports) {
-    if (key === '__esModule') {
-      continue;
-    }
-    var desc = Object.getOwnPropertyDescriptor(exports, key);
-    if (desc && desc.get && !isESM) {
-      // Don't invoke getters for CJS as they may have side effects.
-      continue;
-    }
-    var exportValue = exports[key];
-    signature.push(key);
-    signature.push(Refresh.getFamilyByType(exportValue));
-  }
-  return signature;
-}
-function registerExportsForReactRefresh(module) {
-  var exports = module.exports, id = module.id;
-  Refresh.register(exports, id + ' %exports%');
-  if (exports == null || typeof exports !== 'object') {
-    // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-  }
-  let isESM = ('__esModule' in exports);
-  for (var key in exports) {
-    var desc = Object.getOwnPropertyDescriptor(exports, key);
-    if (desc && desc.get && !isESM) {
-      // Don't invoke getters for CJS as they may have side effects.
-      continue;
-    }
-    var exportValue = exports[key];
-    Refresh.register(exportValue, id + ' %exports% ' + key);
-  }
-}
-
-},{"react-refresh/runtime":"592mh"}],"3s3hT":[function() {},{}],"5NHTt":[function(require,module,exports) {
+},{"react":"3b2NM","./css/Home.css":"3s3hT","./SignUp":"5NHTt","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3s3hT":[function() {},{}],"5NHTt":[function(require,module,exports) {
 var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27479,7 +27283,206 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./css/SignUp.css":"uOIoS","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"uOIoS":[function() {},{}],"1PMSK":[function(require,module,exports) {
+},{"react":"3b2NM","./css/SignUp.css":"uOIoS","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"uOIoS":[function() {},{}],"5gA8y":[function(require,module,exports) {
+"use strict";
+
+exports.interopDefault = function (a) {
+  return a && a.__esModule ? a : {
+    default: a
+  };
+};
+
+exports.defineInteropFlag = function (a) {
+  Object.defineProperty(a, '__esModule', {
+    value: true
+  });
+};
+
+exports.exportAll = function (source, dest) {
+  Object.keys(source).forEach(function (key) {
+    if (key === 'default' || key === '__esModule') {
+      return;
+    } // Skip duplicate re-exports when they have the same value.
+
+
+    if (key in dest && dest[key] === source[key]) {
+      return;
+    }
+
+    Object.defineProperty(dest, key, {
+      enumerable: true,
+      get: function () {
+        return source[key];
+      }
+    });
+  });
+  return dest;
+};
+
+exports.export = function (dest, destName, get) {
+  Object.defineProperty(dest, destName, {
+    enumerable: true,
+    get: get
+  });
+};
+},{}],"4Jj4f":[function(require,module,exports) {
+"use strict";
+var Refresh = require('react-refresh/runtime');
+function debounce(func, delay) {
+  if ("development" === 'test') {
+    return function (args) {
+      func.call(null, args);
+    };
+  } else {
+    var timeout = undefined;
+    return function (args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(function () {
+        timeout = undefined;
+        func.call(null, args);
+      }, delay);
+    };
+  }
+}
+var enqueueUpdate = debounce(function () {
+  Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function (module) {
+  window.$RefreshReg$ = function (type, id) {
+    Refresh.register(type, module.id + ' ' + id);
+  };
+  window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function (module) {
+  if (isReactRefreshBoundary(module.exports)) {
+    registerExportsForReactRefresh(module);
+    if (module.hot) {
+      module.hot.dispose(function (data) {
+        if (Refresh.hasUnrecoverableErrors()) {
+          window.location.reload();
+        }
+        data.prevExports = module.exports;
+      });
+      module.hot.accept(function (getParents) {
+        var prevExports = module.hot.data.prevExports;
+        var nextExports = module.exports;
+        // Since we just executed the code for it, it's possible
+        // that the new exports make it ineligible for being a boundary.
+        var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+        // It can also become ineligible if its exports are incompatible
+        // with the previous exports.
+        // For example, if you add/remove/change exports, we'll want
+        // to re-execute the importing modules, and force those components
+        // to re-render. Similarly, if you convert a class component
+        // to a function, we want to invalidate the boundary.
+        var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+        if (isNoLongerABoundary || didInvalidate) {
+          // We'll be conservative. The only case in which we won't do a full
+          // reload is if all parent modules are also refresh boundaries.
+          // In that case we'll add them to the current queue.
+          var parents = getParents();
+          if (parents.length === 0) {
+            // Looks like we bubbled to the root. Can't recover from that.
+            window.location.reload();
+            return;
+          }
+          return parents;
+        }
+        enqueueUpdate();
+      });
+    }
+  }
+};
+function isReactRefreshBoundary(exports) {
+  if (Refresh.isLikelyComponentType(exports)) {
+    return true;
+  }
+  if (exports == null || typeof exports !== 'object') {
+    // Exit if we can't iterate over exports.
+    return false;
+  }
+  var hasExports = false;
+  var areAllExportsComponents = true;
+  let isESM = ('__esModule' in exports);
+  for (var key in exports) {
+    hasExports = true;
+    if (key === '__esModule') {
+      continue;
+    }
+    var desc = Object.getOwnPropertyDescriptor(exports, key);
+    if (desc && desc.get && !isESM) {
+      // Don't invoke getters for CJS as they may have side effects.
+      return false;
+    }
+    var exportValue = exports[key];
+    if (!Refresh.isLikelyComponentType(exportValue)) {
+      areAllExportsComponents = false;
+    }
+  }
+  return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+  var prevSignature = getRefreshBoundarySignature(prevExports);
+  var nextSignature = getRefreshBoundarySignature(nextExports);
+  if (prevSignature.length !== nextSignature.length) {
+    return true;
+  }
+  for (var i = 0; i < nextSignature.length; i++) {
+    if (prevSignature[i] !== nextSignature[i]) {
+      return true;
+    }
+  }
+  return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+  var signature = [];
+  signature.push(Refresh.getFamilyByType(exports));
+  if (exports == null || typeof exports !== 'object') {
+    // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+  }
+  let isESM = ('__esModule' in exports);
+  for (var key in exports) {
+    if (key === '__esModule') {
+      continue;
+    }
+    var desc = Object.getOwnPropertyDescriptor(exports, key);
+    if (desc && desc.get && !isESM) {
+      // Don't invoke getters for CJS as they may have side effects.
+      continue;
+    }
+    var exportValue = exports[key];
+    signature.push(key);
+    signature.push(Refresh.getFamilyByType(exportValue));
+  }
+  return signature;
+}
+function registerExportsForReactRefresh(module) {
+  var exports = module.exports, id = module.id;
+  Refresh.register(exports, id + ' %exports%');
+  if (exports == null || typeof exports !== 'object') {
+    // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+  }
+  let isESM = ('__esModule' in exports);
+  for (var key in exports) {
+    var desc = Object.getOwnPropertyDescriptor(exports, key);
+    if (desc && desc.get && !isESM) {
+      // Don't invoke getters for CJS as they may have side effects.
+      continue;
+    }
+    var exportValue = exports[key];
+    Refresh.register(exportValue, id + ' %exports% ' + key);
+  }
+}
+
+},{"react-refresh/runtime":"592mh"}],"1PMSK":[function(require,module,exports) {
 "use strict";
 if ("development" === "production") {
   module.exports = require("./cjs/react-router-dom.min.js");

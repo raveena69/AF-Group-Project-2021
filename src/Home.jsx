@@ -18,11 +18,12 @@ export default class Home extends React.Component {
                         <div className="right">
                             <div className="sign-up-back">
                                 <div className="still-not-registered">Still not registered</div>
-                                <a href="/signUp" className="sign-up">Sign up Now</a>
+                                {/* <a href="/signUp" className="sign-up" target="_blanck">Sign up Now</a> */}
+                                <Link to="/signUp" className="sign-up" target="_blanck">Sign up Now</Link>
                             </div>
                             <div className="sign-up-back">
                                 <div className="already-registered">Already registered</div>
-                                <a href="#" className="sign-in">Sign in Now</a>
+                                <a href="#" className="sign-in" target="_blanck">Sign in Now</a>
                             </div>
                             <div className="date-back">
                                 <div className="dates">21st, 22nd and 23rd December 2021</div>
@@ -36,6 +37,7 @@ export default class Home extends React.Component {
                     {/*Middle section start*/}
                     <div className="about-conference-back">
                     <div className="about-conference-back1">
+                        
                         <div className="about-conference">About Our Conference</div>
                         <div className="icaf-name">1st International Conference in Application Frameworks 2021 [ICAF]</div>
                         <div className="conference-para">The 1st International Conference on Application Frameworks [ICAF] is organized by the Faculty of Computing of the
@@ -51,7 +53,7 @@ export default class Home extends React.Component {
                             <br/><br/>
                             December 21 - 23, 2021 in Sri Lanka Institute of Information Technology
                         </div>
-
+                        
                     </div>
                     </div>
 
@@ -117,7 +119,7 @@ export default class Home extends React.Component {
 
                     <div id="footer">
                         <div id="footer1">
-
+                        
                             <div id="logo1"></div>
 
                             <div id="facts">

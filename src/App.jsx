@@ -13,6 +13,7 @@ export default class App extends React.Component{
                 {/*<Home />*/}
                 {/*<SignUp />*/}
                 {/*<Route path={"/signUp"} exact component={"SignUp"}/>*/}
+                
                 <Switch>
                     <Route exact path={"/"}>
                     <Home/>
@@ -22,8 +23,10 @@ export default class App extends React.Component{
                     </Route>
                 </Switch>
 
-
-
+                    {/* <div>
+                        <Route exact path={"/"} component={Home}/>
+                        <Route path="signUp" component={SignUp}/>
+                    </div> */}
             </Router>
         );
     }

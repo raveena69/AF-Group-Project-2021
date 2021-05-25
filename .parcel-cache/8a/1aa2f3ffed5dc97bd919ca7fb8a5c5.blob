@@ -1,0 +1,566 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.out-background{
+    width: 100%;
+    height: 1000px;
+}
+
+/*Top section start*/
+
+.top-bar{
+    min-width:100%;
+    min-height: 722px;
+    background-image: url("background3.HASH_REF_64111a6728be1f9f3a7ee1371bcca6ec.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    float:left;
+}
+
+.top-bar1{
+    width: 1200px;
+    height: 722px;
+    margin: auto;
+    /*background: red;*/
+}
+
+.left{
+    width: 520px;
+    height: 610px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    /*background: green;*/
+}
+
+.right{
+    width: 520px;
+    height: 610px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    /*background: green;*/
+}
+
+.conference-name{
+    width: auto;
+    height: auto;
+    font-family: Candara;
+    color: lightpink;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    /*background: cadetblue;*/
+}
+
+.still-not-registered{
+    font-size: 40px;
+    font-family: Bahnschrift;
+    color:white;
+    margin-top: 100px;
+}
+
+.sign-up{
+    width: auto;
+    height: 300px;
+    font-family: Candara;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+    /*background: cadetblue;*/
+}
+
+.already-registered{
+    font-size: 40px;
+    font-family: Bahnschrift;
+    color:white;
+    margin-top: 70px;
+}
+
+.sign-in{
+    width: auto;
+    height: 300px;
+    font-family: Candara;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+    /*background: cadetblue;*/
+}
+
+.sign-in:hover, .sign-up:hover{
+    color: #204c69;
+}
+
+.date-back{
+    width:auto;
+    height: auto;
+}
+
+.dates{
+    width: auto;
+    height: auto;
+    font-family: Candara;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.institute{
+    width: auto;
+    height: auto;
+    font-family: Candara;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+/*Top section end*/
+
+/*Middle section start*/
+
+.about-conference-back{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.about-conference-back1{
+    width: 1200px;
+    height: auto;
+    float: left;
+}
+
+.about-conference{
+    width: auto;
+    height: auto;
+    font-family: Bahnschrift;
+    color: darkblue;
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.icaf-name{
+    width: auto;
+    height: auto;
+    font-family: "Gill Sans MT";
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conference-para{
+    width: 500px;
+    height: auto;
+    font-family: Ebrima;
+    color: -moz-default-background-color;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0px 30px 350px;
+}
+
+/*Middle section end*/
+
+/*Guest speakers start*/
+
+.guest-speaker{
+    width: 500px;
+    height: auto;
+    font-family: "Yu Gothic UI";
+    color: lightcyan;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0px 40px 350px;
+}
+
+.guest-back{
+    width: 100%;
+    height: 1070px;
+    background: #225687;
+    float: left;
+}
+
+.guest-back1{
+    width: 1200px;
+    height: 1050px;
+    margin: auto;
+    /*background: red;*/
+}
+
+.person1-img{
+    width: 300px;
+    height: 300px;
+    background-image: url("person1.HASH_REF_fe24ea26f23df699cd0a478129fb4f27.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.person1-content{
+    width: 350px;
+    height: 130px;
+    font-family: "Yu Gothic UI";
+    color: lightslategrey;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 70px;
+    /*background: green;*/
+}
+
+.person1, .person2{
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 90px;
+}
+
+.person3, .person4{
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 20px;
+    /*background: red;*/
+}
+
+.person2-img{
+    width: 300px;
+    height: 300px;
+    background-image: url("person2.HASH_REF_cc029ed81fe562fa86325ef80a80fa21.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.person3-img{
+    width: 300px;
+    height: 300px;
+    background-image: url("person4.HASH_REF_cc5a68d0d4dc7a740d8ff15e3df3ecce.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.person4-img{
+    width: 300px;
+    height: 300px;
+    background-image: url("person3.HASH_REF_f6008f693d50030104807bfc34a31b8f.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+/*Guest Speakers end*/
+
+/*Topics start*/
+
+.topics-back{
+    width:1200px;
+    height: 650px;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    float: left;
+}
+
+.topics-back1{
+    width:400px;
+    height: 650px;
+    margin: auto;
+    /*background: red;*/
+}
+
+.topics{
+    width: auto;
+    height: auto;
+    font-family: "Yu Gothic UI";
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 150px;
+    float: left;
+}
+
+.topics-out{
+    width: auto;
+    height: auto;
+    font-family: "Yu Gothic UI";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 80px;
+    float: left;
+}
+
+.topic{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    float: left;
+    /*background: green;*/
+}
+
+/*Topics End*/
+
+/*Footer Start*/
+
+#footer{
+    width:100%;
+    height:420px;
+    background: #16214a;
+    float:left;
+}
+
+#footer1{
+    width:1200px;
+    height:420px;
+    margin:auto;
+}
+
+#facts{
+    width:500px;
+    height:300px;
+}
+
+#company-address{
+    width:500px;
+    height:180px;
+    text-align:center;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:350px;
+    font-family: "Corbel Light";
+    color: lightcyan;
+    float:left;
+}
+
+#logo1{
+    width:90px;
+    height:80px;
+    background-image: url("logo1.HASH_REF_4272d1afd070827adb9fdbeba262df57.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left:550px;
+    margin-top:20px;
+    float:left;
+}
+
+#social{
+    width:500px;
+    height:70px;
+    margin-top:30px;
+    margin-left:440px;
+    float:left;
+}
+
+#youtube{
+    width:40px;
+    height:40px;
+    margin-top: 10px;
+    float:left;
+    background-image: url("youtube.HASH_REF_129d1a6b740a19988b5ed780a4e1355b.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#facebook{
+    width:50px;
+    height:40px;
+    float:left;
+    margin-left:30px;
+    margin-top:10px;
+    background-image: url("facebook.HASH_REF_de752e1d146f90b40e47198654598c82.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#pinterest{
+    width:43px;
+    height:43px;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    background-image: url("pinterest.HASH_REF_354850fbf3d2893c6117d1d0de8df21a.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#twitter{
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    background-image: url("twitter.HASH_REF_7bafe4ad19ec38cb59a0f4764d90c871.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#instagram{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-left:20px;
+    margin-top:5px;
+    background-image: url("instagram.HASH_REF_91345498fc8efb5abab70c325bff0859.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/*Footer End*/
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #05053b;
+}
+
+.form-wrapper{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-weight: lighter;
+    font-family:sans-serif ;
+}
+
+label{
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: lighter;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+
+input ::placeholder{
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+}
+
+input.error{
+    border: 1px solid red;
+}
+
+.errorMessage{
+    color: red;
+    font-size: 0.75em;
+// display: relative;
+}
+
+.firstName{
+    margin-right: 1%;
+}
+
+.lastName{
+    margin-left: 1%;
+}
+
+.firstName,.lastName,.email,.password,.userState{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.firstName,.lastName{
+    width: 49%;
+}
+
+.email,.password{
+    width: 100%;
+}
+
+.userState{
+    width: 100%;
+}
+
+.createAccount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createAccount button{
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid white;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+}
+
+.createAccount button:hover{
+    color: #519e8a;
+    background-color: white;
+    border: 2px solid #519e8a;
+}
+
+.createAccount small{
+    color: #999999;
+    font-weight: lighter;
+}
+
+/*# sourceMappingURL=index.HASH_REF_7fe25fdffd24aa8cc35e42d305437770.css.map */
