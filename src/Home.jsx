@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/Home.css';
-import SignUp from "./SignUp";
 import {Link} from "react-router-dom";
 export default class Home extends React.Component {
 
@@ -19,11 +18,11 @@ export default class Home extends React.Component {
                             <div className="sign-up-back">
                                 <div className="still-not-registered">Still not registered</div>
                                 {/* <a href="/signUp" className="sign-up" target="_blanck">Sign up Now</a> */}
-                                <Link to="/signUp" className="sign-up" target="_blanck">Sign up Now</Link>
+                                <Link to="/signUpMain" className="sign-up" target="_blanck">Sign up Now</Link>
                             </div>
                             <div className="sign-up-back">
                                 <div className="already-registered">Already registered</div>
-                                <a href="#" className="sign-in" target="_blanck">Sign in Now</a>
+                                <Link to="/signInMain" className="sign-up" target="_blanck">Sign in Now</Link>
                             </div>
                             <div className="date-back">
                                 <div className="dates">21st, 22nd and 23rd December 2021</div>
