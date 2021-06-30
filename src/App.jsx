@@ -3,6 +3,13 @@ import Home from './Home';
 import SignUp from "./SignUp";
 import SignUpMain from "./SignUpMain";
 import SignInMain from "./SignInMain";
+import EditorNav from "./components/EditorNav";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import editorProfile from "./components/editorProfile";
+import createConference from "./components/createConference";
+import ConferenceDetails from "./components/conferenceDetails";
+import EditConference from "./components/EditConference";
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
 
 // import PrivateRoute from "./components/routing/PrivateRoute";
@@ -51,7 +58,13 @@ export default class App extends React.Component{
                     <Route exact path={"/signUp"}>
                         <SignUp/>
                     </Route>
-                    
+                    <Route path={"/editor-nav"} component={"EditorNav"}/>
+                    <Route path={"/editor-login"} component={"Login"}/>
+                    <Route path={"/editor-register"} component={"Register"}/>
+                    <Route path={"/profile"} component={"editorProfile"}/>
+                    <Route path={"/add-details"} component={"createConference"}/>
+                    <Route path={"/list"} component={"ConferenceDetails"}/>
+                    <Route path={"/edit-conf"} component={"EditConference"}/>
                 </Switch>
             </Router>
 

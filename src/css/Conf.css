@@ -62,40 +62,25 @@ input.error{
     font-size: 0.75em;
 }
 
-.firstName{
-    margin-right: 1%;
-}
 
-.lastName{
-    margin-left: 1%;
-}
-
-.firstName,.lastName,.email,.password,.username{
+.guestSpeaker,.time,.date,.description{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
 }
 
-.firstName,.lastName{
-    width: 49%;
-}
-
-.email,.password{
+.guestSpeaker,.time,.date,.description{
     width: 100%;
 }
 
-.username{
-    width: 100%;
-}
-
-.createAccount{
+.create{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.createAccount button{
+.create button{
     background-color: #519e8a;
     color: #fff;
     border: 2px solid white;
@@ -108,13 +93,9 @@ input.error{
     margin-bottom: 0.25em;
 }
 
-.createAccount button:hover{
+.create button:hover{
     color: #519e8a;
     background-color: white;
     border: 2px solid #519e8a;
 }
 
-.createAccount small{
-    color: #999999;
-    font-weight: lighter;
-}
