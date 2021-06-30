@@ -4,6 +4,17 @@ import SignUp from "./SignUp";
 import SignUpMain from "./SignUpMain";
 import SignInMain from "./SignInMain";
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import ResearcherLogin from "./components/ResearcherLogin";
+import WorkshopConductorLogin from "./components/WorkshopConductorLogin"
+import RegisterWorkshopConductor from "./components/RegisterWorkshopConductor";
+import RegisterAttendee from "./components/Attendee";
+import RegisterResearcher from "./components/RegisterResearcher";
+import Login from "./Login";
+import Register from "./Register";
+import ResearchPaperDetails from "./components/ResearchPaperDetails";
+import ProposalDetails from "./components/ProposalDetails";
+import SubmitPaper from "./components/SubmitPaper";
+import SubmitProposal from "./components/SubmitProposal";
 
 // import PrivateRoute from "./components/routing/PrivateRoute";
 // import AdminHome from "./components/pages/AdminHome";
@@ -51,7 +62,41 @@ export default class App extends React.Component{
                     <Route exact path={"/signUp"}>
                         <SignUp/>
                     </Route>
-                    
+                    <Route exact path = {"/login"}>
+                        <Login/>
+                    </Route>
+                    <Route exact path = {"/register"}>
+                        <Register/>
+                    </Route>
+                    <Route exact path = {"/registerResearcher"}>
+                        <RegisterResearcher/>
+                    </Route>
+                    <Route exact path = {"/registerWorkshopConductor"}>
+                        <RegisterWorkshopConductor/>
+                    </Route>
+                    <Route exact path = {"/registerAttendee"}>
+                        <RegisterAttendee/>
+                    </Route>
+                    <Route exact path = {"/researcherlogin"}>
+                        <ResearcherLogin/>
+                    </Route>
+                    <Route exact path = {"/researcherpaperdetails"}>
+                        <ResearchPaperDetails/>
+                    </Route>
+                    <Route path = {"/workshopconductorlogin"}>
+                        <WorkshopConductorLogin/>
+                    </Route>
+                    <Route exact path = {"/proposaldetails"}>
+                        <ProposalDetails/>
+                    </Route>
+                    <Route exact path = {"/submitpaper"}>
+                        <SubmitPaper/>
+                    </Route>
+                    <Route exact path = {"/submitproposal"}>
+                        <SubmitProposal/>
+                    </Route>
+
+
                 </Switch>
             </Router>
 
@@ -159,4 +204,4 @@ export default class App extends React.Component{
           // </AuthState>
         )
     }
-};
+}

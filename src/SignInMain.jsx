@@ -21,7 +21,7 @@ function SignUpMain() {
                         </div>
                     </Link>
 
-                    <Link id="link" to="/home">
+                    <Link id="link" to="/register">
                         <div id="admin-signUp">
                             <div className="admin-login">User Register</div>
                         </div>
