@@ -39,11 +39,7 @@ app.use('/api/map', mapRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/user', userRouter);
 
-const editorRouter = require("./routes/editors.js");
-app.use("/editor",editorRouter);
 
-const confRouter = require("./routes/conf.js");
-app.use("/conference",confRouter);
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
