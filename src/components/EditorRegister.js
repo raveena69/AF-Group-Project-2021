@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { register } from './editorFunction';
 import '../css/SignUp.css';
 
-class Register extends Component{
+class EditorRegister extends Component{
 
     constructor(props){
         super(props);
@@ -103,4 +103,4 @@ class Register extends Component{
     }
 }
 
-export default Register;
+export default EditorRegister;

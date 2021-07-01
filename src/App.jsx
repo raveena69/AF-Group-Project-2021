@@ -15,6 +15,12 @@ import ResearchPaperDetails from "./components/ResearchPaperDetails";
 import ProposalDetails from "./components/ProposalDetails";
 import SubmitPaper from "./components/SubmitPaper";
 import SubmitProposal from "./components/SubmitProposal";
+import EditorRegister from "./components/EditorRegister";
+import EditorLogin from "./components/EditorLogin";
+import editorProfile from "./components/editorProfile";
+import createConference from "./components/createConference";
+import ConferenceDetails from "./components/conferenceDetails";
+import EditConference from "./components/EditConference";
 
 // import PrivateRoute from "./components/routing/PrivateRoute";
 // import AdminHome from "./components/pages/AdminHome";
@@ -95,6 +101,13 @@ export default class App extends React.Component{
                     <Route exact path = {"/submitproposal"}>
                         <SubmitProposal/>
                     </Route>
+                    <Route path={"/editor-nav"} component={"EditorNav"}/>
+                    <Route path={"/editor-login"} component={"EditorLogin"}/>
+                    <Route path={"/editor-register"} component={"EditorRegister"}/>
+                    <Route path={"/profile"} component={"editorProfile"}/>
+                    <Route path={"/add-details"} component={"createConference"}/>
+                    <Route path={"/list"} component={"ConferenceDetails"}/>
+                    <Route path={"/edit-conf"} component={"EditConference"}/>
 
 
                 </Switch>

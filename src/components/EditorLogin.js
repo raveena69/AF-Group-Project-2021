@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { login } from './editorFunction';
 
-class Login extends Component{
+class EditorLogin extends Component{
 
     constructor(props){
         super(props);
@@ -73,4 +73,4 @@ class Login extends Component{
     }
 }
 
-export default Login;
+export default EditorLogin;
