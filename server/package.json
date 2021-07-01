@@ -1,7 +1,7 @@
 {
-  "name": "mern_typescript",
+  "name": "AF-Group-Project-2021 - backend",
   "version": "1.0.0",
-  "description": "MERN Stack with ES6 and Typescript Boilerplate",
+  "description": "AF_Group_Project-Conference_Management - backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
