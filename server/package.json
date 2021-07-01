@@ -8,7 +8,7 @@
     "dev": "nodemon server.js --exec babel-node --presets babel-preset-env",
     "test": "jest Tests"
   },
-  "author": "Brad Traversy",
+  "author": "Raveena",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
